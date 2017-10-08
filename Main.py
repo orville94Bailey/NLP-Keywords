@@ -1,4 +1,4 @@
-from newspaper import Article
+#from newspaper import Article
 from rake_nltk import Rake
 
 # parameters are as follows:
@@ -55,11 +55,11 @@ def getKeywords(text, numOfKeywords):
     return returnDic
 
 
-url = 'https://techcrunch.com/2017/10/06/apple-is-looking-into-reports-of-iphone-8-batteries-swelling/'
+#url = 'https://techcrunch.com/2017/10/06/apple-is-looking-into-reports-of-iphone-8-batteries-swelling/'
 
 # newspaper
-art = Article(url, language='en')  # English
-art.download()
-art.parse()
+#art = Article(url, language='en')  # English
+#art.download()
+#art.parse()
 
-print(getKeywords(art.text, 10))
+#print(getKeywords(art.text, 10))
